@@ -1,0 +1,6 @@
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\BuildArtifacts\MyMusicApp.Tests.dll.config
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\BuildArtifacts\MyMusicApp.Tests.dll
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\BuildArtifacts\MyMusicApp.Tests.pdb
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\MyMusicApp.Tests\obj\Release\MyMusicApp.Tests.csprojResolveAssemblyReference.cache
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\MyMusicApp.Tests\obj\Release\MyMusicApp.Tests.dll
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\MyMusicApp.Tests\obj\Release\MyMusicApp.Tests.pdb

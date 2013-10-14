@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="acbf024b-f701-4691-a334-101c185810b4" name="wmunn@SUMMA-611 2013-10-14 14:11:24" runUser="summa-611\wmunn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="f7bf2cc0-f2b4-428b-924a-e6eef11f42a6">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="wmunn_SUMMA-611 2013-10-14 14_11_24" />
+  </TestSettings>
+  <Times creation="2013-10-14T14:11:24.8391723-04:00" queuing="2013-10-14T14:11:25.1691912-04:00" start="2013-10-14T14:11:25.2411953-04:00" finish="2013-10-14T14:11:25.5772145-04:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SUMMA-611" outcome="Warning" timestamp="2013-10-14T14:11:25.1531903-04:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'WebGrease' directly or indirectly referenced by the test container 'c:\users\wmunn\documents\mymusic\mymusic\mymusicapp\buildartifacts\mymusicapp.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="SUMMA-611" outcome="Warning" timestamp="2013-10-14T14:11:25.1531903-04:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Web.Mvc' directly or indirectly referenced by the test container 'c:\users\wmunn\documents\mymusic\mymusic\mymusicapp\buildartifacts\mymusicapp.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="SUMMA-611" outcome="Warning" timestamp="2013-10-14T14:11:25.1531903-04:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'log4net' directly or indirectly referenced by the test container 'c:\users\wmunn\documents\mymusic\mymusic\mymusicapp\buildartifacts\mymusicapp.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="SUMMA-611" outcome="Warning" timestamp="2013-10-14T14:11:25.1531903-04:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'c:\users\wmunn\documents\mymusic\mymusic\mymusicapp\buildartifacts\mymusicapp.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="About" storage="c:\users\wmunn\documents\mymusic\mymusic\mymusicapp\buildartifacts\mymusicapp.tests.dll" id="99945c59-661e-3871-da37-19b6e7e9e0cc">
+      <Execution id="d82b5328-225b-4f44-90a2-29c8fd8ccfaa" />
+      <TestMethod codeBase="C:/Users/wmunn/Documents/MyMusic/MyMusic/MyMusicApp/BuildArtifacts/MyMusicApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMusicApp.Tests.Controllers.HomeControllerTest, MyMusicApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Contact" storage="c:\users\wmunn\documents\mymusic\mymusic\mymusicapp\buildartifacts\mymusicapp.tests.dll" id="9554da1c-75d8-d133-131c-7a43fbbccde1">
+      <Execution id="de8cd241-e86f-45ca-886c-26ef1548ce94" />
+      <TestMethod codeBase="C:/Users/wmunn/Documents/MyMusic/MyMusic/MyMusicApp/BuildArtifacts/MyMusicApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMusicApp.Tests.Controllers.HomeControllerTest, MyMusicApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\wmunn\documents\mymusic\mymusic\mymusicapp\buildartifacts\mymusicapp.tests.dll" id="95ce557f-df99-4bf6-b377-bb6bdc693082">
+      <Execution id="fdf3b3b4-895f-4f7d-9778-a13b4567b04d" />
+      <TestMethod codeBase="C:/Users/wmunn/Documents/MyMusic/MyMusic/MyMusicApp/BuildArtifacts/MyMusicApp.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMusicApp.Tests.Controllers.HomeControllerTest, MyMusicApp.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="99945c59-661e-3871-da37-19b6e7e9e0cc" executionId="d82b5328-225b-4f44-90a2-29c8fd8ccfaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9554da1c-75d8-d133-131c-7a43fbbccde1" executionId="de8cd241-e86f-45ca-886c-26ef1548ce94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95ce557f-df99-4bf6-b377-bb6bdc693082" executionId="fdf3b3b4-895f-4f7d-9778-a13b4567b04d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d82b5328-225b-4f44-90a2-29c8fd8ccfaa" testId="99945c59-661e-3871-da37-19b6e7e9e0cc" testName="About" computerName="SUMMA-611" duration="00:00:00.0439036" startTime="2013-10-14T14:11:25.2671968-04:00" endTime="2013-10-14T14:11:25.5102107-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d82b5328-225b-4f44-90a2-29c8fd8ccfaa">
+    </UnitTestResult>
+    <UnitTestResult executionId="de8cd241-e86f-45ca-886c-26ef1548ce94" testId="9554da1c-75d8-d133-131c-7a43fbbccde1" testName="Contact" computerName="SUMMA-611" duration="00:00:00.0020092" startTime="2013-10-14T14:11:25.5162110-04:00" endTime="2013-10-14T14:11:25.5242115-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de8cd241-e86f-45ca-886c-26ef1548ce94">
+    </UnitTestResult>
+    <UnitTestResult executionId="fdf3b3b4-895f-4f7d-9778-a13b4567b04d" testId="95ce557f-df99-4bf6-b377-bb6bdc693082" testName="Index" computerName="SUMMA-611" duration="00:00:00.0123492" startTime="2013-10-14T14:11:25.5282117-04:00" endTime="2013-10-14T14:11:25.5432126-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdf3b3b4-895f-4f7d-9778-a13b4567b04d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

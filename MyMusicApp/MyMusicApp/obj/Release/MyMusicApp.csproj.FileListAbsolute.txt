@@ -1,0 +1,5 @@
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\BuildArtifacts\MyMusicApp.dll
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\BuildArtifacts\MyMusicApp.pdb
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\MyMusicApp\obj\Release\MyMusicApp.csprojResolveAssemblyReference.cache
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\MyMusicApp\obj\Release\MyMusicApp.dll
+C:\Users\wmunn\Documents\MyMusic\MyMusic\MyMusicApp\MyMusicApp\obj\Release\MyMusicApp.pdb

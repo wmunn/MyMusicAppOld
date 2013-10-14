@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusicApp", "MyMusicApp\My
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusicApp.Tests", "MyMusicApp.Tests\MyMusicApp.Tests.csproj", "{CF38B042-28DA-4FA6-AA9B-808ACD7449D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6B01E2E-B43E-4FCE-88A4-216D7130A6D9}"
+	ProjectSection(SolutionItems) = preProject
+		MyMusicApp.msbuild = MyMusicApp.msbuild
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
