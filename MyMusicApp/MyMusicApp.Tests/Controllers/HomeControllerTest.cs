@@ -22,7 +22,7 @@ namespace MyMusicApp.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
-            Assert.AreEqual(4,5);
+            Assert.IsTrue(false);
         }
 
         [TestMethod]
