@@ -12,17 +12,15 @@
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+                    <p class="site-title">@Html.ActionLink("MyMusic", "Index", "Home")</p>
                 </div>
                 <div class="float-right">
-                    <section id="login">
-                        @Html.Partial("_LoginPartial")
-                    </section>
                     <nav>
                         <ul id="menu">
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Artists", "Index", "Artists")</li>
+                            <li>@Html.ActionLink("Albums", "About", "Home")</li>
+                            <li>@Html.ActionLink("Tracks", "Contact", "Home")</li>
                         </ul>
                     </nav>
                 </div>
@@ -44,5 +42,5 @@
 
         @Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)
-    </body>
+     </body>
 </html>
