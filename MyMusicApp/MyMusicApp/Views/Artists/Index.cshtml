@@ -6,6 +6,29 @@
 
 <h2>Artists</h2>
 
+<div id="edit-artist-modal" title="Edit Artist">
+    <p>This is a the modal for editing an artist</p>
+    <div>
+        <label for="ArtistName">Name:</label>
+        <input type="text" id="ArtistName" value="#{item.}"/>
+    </div>
+</div>
+<div id="delete-artist-modal" title="Delete Artist">
+    <p>This is a the modal for deleting an artist</p>
+</div>
+<div id="create-artist-modal" title="Create Artist">
+    <p>This is a the modal for creating an artist</p>
+    <div>
+        <label for="ArtistName2">Name:</label>
+        <input type="text" id="ArtistName2" />
+    </div>
+
+</div>
+
+<div id="edit-art"></div>
+
+<button id="open-create-artist-modal">Create</button>
+
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -23,7 +46,9 @@
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.ArtistId })
+            <button id="open-edit-artist-modal">Edit</button>
+            <button id="open-delete-artist-modal">Delete</button>
+            @Html.ActionLink("Edit", "Edit", new { id = item.ArtistId }, new { @class = "myModal"})
             @Html.ActionLink("Delete", "Delete", new { id=item.ArtistId })
         </td>
     </tr>
